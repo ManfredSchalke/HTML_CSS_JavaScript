@@ -1,0 +1,48 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-brand {
+    height: 80px;
+  }
+
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  #nav-list {
+    padding: 0;
+    text-align: center;
+    background-color: bisque;
+  }
+
+  h1 {
+    font-family: sans-serif;
+    color: black;
+    margin: 10px;
+  }
+
+  h2 {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  p {
+    font-family: sans-serif;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .tile {
+    background-color: #808080;
+    margin: 10px;
+    border: 1px solid black;
+}
